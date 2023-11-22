@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Assignment 24
+        </title>
+
+        <style>
+        
+        body
+        {
+            background-image: url("banner.jpg");
+            
+            background-position: center;
+
+        }
+            main
+            {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                font-family: Arial, sans-serif;
+
+            }
+
+            form
+            {
+                display: flex;
+                flex-direction: column;
+
+                background-color: white;
+                width:65vw;
+                
+                padding:10px;
+
+                transform:scale(0.7);
+            }
+
+            hr
+            {
+                width:100%;
+                margin-bottom: 15px;
+            }
+
+            h1
+            {
+                text-align: center;
+            }
+
+            input
+            {
+                border-width: 0px;
+                border-radius: 30px;
+                background-color: rgb(241, 238, 232);
+                padding:5px;
+                margin-bottom: 10px;
+            }
+
+            button
+            {
+                background-color: black;
+                color:white;
+                padding:5px;
+                margin:5px;
+            }
+                
+        </style>
+    </head>
+
+    <body>
+        <main>
+
+                <form>
+
+                    <h1>
+                        Sign Up
+                    </h1>
+
+                    <hr>
+
+                    <label for="first-name">First name</label>
+                    <input id="first-name" type="text" placeholder="Enter Email">
+
+                    <label for="last-name">Last name</label>
+                    <input id="last-name" type="text" placeholder="Enter Email">
+
+                    <label for="d-o-b">Date of Birth</label>
+                    <input id="d-o-b" type="date">
+
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter Email">
+
+                    <label for="password">Password</label>
+                    <input id="password" type="password" placeholder="Enter Password">
+
+                    <label for="conf-pass">Confirm Password</label>
+                    <input id="conf-pass" type="password" placeholder="Repeat password">
+
+                    <hr>
+
+                    <button type="submit">Register</button>
+                </form>    
+        </main>
+    </body>
+</html>
